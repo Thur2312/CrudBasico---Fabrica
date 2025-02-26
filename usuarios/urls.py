@@ -7,5 +7,5 @@ app_name = 'usuarios'
 
 urlpatterns = [
     path('criar/', views.register_view , name='criar'),
-    path('listar/', views.list_view, name='listar')
+
 ]
